@@ -4,7 +4,8 @@ Advent of Code challenges for the 2023 year
 ## Challanges
 - [x] Day 1
       - See [Day 1](https://github.com/chababster/AdventOfCode23/tree/main/day1) folder for chall and solutions
-- [ ] Day 2
+- [x] Day 2
+      - See [Day 2](https://github.com/chababster/AdventOfCode23/tree/main/day2) folder for chall and solutions
 - [ ] Day 3
 - [ ] Day 4
 - [ ] Day 5
