@@ -6,7 +6,8 @@ Advent of Code challenges for the 2023 year
       - See [Day 1](https://github.com/chababster/AdventOfCode23/tree/main/day1) folder for chall and solutions
 - [x] Day 2: Cube Conundrum
       - See [Day 2](https://github.com/chababster/AdventOfCode23/tree/main/day2) folder for chall and solutions
-- [ ] Day 3
+- [x] Day 3: Gear Ratios
+      - See [Day 2](https://github.com/chababster/AdventOfCode23/tree/main/day3) folder for chall and solutions
 - [ ] Day 4
 - [ ] Day 5
 - [ ] Day 6
