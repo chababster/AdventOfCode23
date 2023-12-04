@@ -8,7 +8,8 @@ Advent of Code challenges for the 2023 year
       - See [Day 2](https://github.com/chababster/AdventOfCode23/tree/main/day2) folder for chall and solutions
 - [x] Day 3: Gear Ratios
       - See [Day 3](https://github.com/chababster/AdventOfCode23/tree/main/day3) folder for chall and solutions
-- [ ] Day 4
+- [x] Day 4: Scratchcards
+      - See [Day 4](https://github.com/chababster/AdventOfCode23/tree/main/day4) folder for chall and solutions
 - [ ] Day 5
 - [ ] Day 6
 - [ ] Day 7

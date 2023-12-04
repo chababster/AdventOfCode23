@@ -1,3 +1,6 @@
+# Advent of Code    Day 3
+# Author            Chababster
+
 # Open file and read all lines
 allLines = []
 with open('day3_puzzle.txt') as f:
