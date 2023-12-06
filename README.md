@@ -1,7 +1,10 @@
 # AdventOfCode23
-Advent of Code challenges for the 2023 year
+Advent of Code challenges for the 2023 year.
+This repo houses all solutions and sources for AoC challenges. 
+Each day has two parts, giving one star each for solving them. 
+Day check boxes only get ticked if BOTH stars are gained.
 
-## Challanges
+## Challenges
 - [x] Day 1: Trebuchet?!
   - [x] Pt 1
   - [x] Pt 2
