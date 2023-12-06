@@ -70,4 +70,4 @@ for maps in mapList:
 seedList.sort()
 
 # Print the first value from the final list, which is the first loc
-print("FIRST SEED LOC:{}".format(seedList[0]))  
+print("FIRST SEED LOC:{}".format(seedList[0]))

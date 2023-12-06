@@ -22,7 +22,10 @@ Advent of Code challenges for the 2023 year
   - [x] Pt 1
   - [ ] Pt 2
   - See [Day 5](https://github.com/chababster/AdventOfCode23/tree/main/day5) folder for chall and solution(s)
-- [ ] Day 6
+- [x] Day 6: Wait For It...
+  - [x] Pt 1
+  - [x] Pt 2
+  - See [Day 6](https://github.com/chababster/AdventOfCode23/tree/main/day6) folder for chall and solution(s)
 - [ ] Day 7
 - [ ] Day 8
 - [ ] Day 9
