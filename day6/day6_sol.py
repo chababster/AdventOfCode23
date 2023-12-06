@@ -7,7 +7,8 @@ lines = []
 with open('day6_puzzle.txt','r') as file:
     lines = file.read().splitlines()
 
-# Split the time and distance strings into usable lists 
+# Remove the words at the front of the lines then split the 
+# time and distance strings into usable lists 
 times = lines[0][5:].split()
 dists = lines[1][10:].split()
 
@@ -26,9 +27,13 @@ for index, _ in enumerate(times):
     # For loop from 0 to currTime, calculate if we can win the race 
     # at that speed and time
     for timeHeld in range(currTime):
-        # If the current timeHeld ends up in a greater max distance 
+        # My boats distance at this time equals the mm/ms (timeHeld) times the ms left 
+        # after holding the button (currTime-timeHeld)
+        myDist = (timeHeld * (currTime - timeHeld))
+
+        # If the current timeHeld ends up in a greater distance than the curr max then
         # we increment our waysToWin counter
-        if ( ( (timeHeld) * (currTime - timeHeld) ) > currMaxDist ):
+        if ( myDist > currMaxDist ):
             waysToWin = waysToWin + 1
 
     # If we found more than 0 ways to win, append the counter to the main list
