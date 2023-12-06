@@ -2,6 +2,9 @@
 # Author        Chababster
 # --- PT 2 --- 
 
+# Import libs 
+from progress.bar import Bar as pbar
+
 # Open file and read
 lines = []
 with open('day6_puzzle.txt','r') as file:
@@ -29,11 +32,12 @@ waysToWin = 0
 
 # For 0 .. timeActual, calculate if we can potentially win, if so
 # increment the counter
-for timeHeld in range(timeActual):
-    # If the current timeHeld ends up in a greater max distance 
-    # we increment our waysToWin counter
-    if ( ( (timeHeld) * (timeActual - timeHeld) ) > distActual ):
-        waysToWin = waysToWin + 1
-
+with pbar('Calculating...',max=timeActual) as bar:
+    for timeHeld in range(timeActual):
+        # If the current timeHeld ends up in a greater max distance 
+        # we increment our waysToWin counter
+        if ( ( (timeHeld) * (timeActual - timeHeld) ) > distActual ):
+            waysToWin = waysToWin + 1
+        bar.next()
 # Print the ways to win
 print(waysToWin)
