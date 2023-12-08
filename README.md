@@ -29,7 +29,14 @@ Day check boxes only get ticked if BOTH stars are gained.
   - [x] Pt 1
   - [x] Pt 2
   - See [Day 6](https://github.com/chababster/AdventOfCode23/tree/main/day6) folder for chall and solution(s)
-- [ ] Day 7
+  - NOTES
+    - Solution for pt 2 is a brute-force method; therefore, computationally expensive and unable to run on my hardware
+- [ ] Day 7: Camel Cards
+  - [ ] Pt 1
+  - [ ] Pt 2
+  - See [Day 7](https://github.com/chababster/AdventOfCode23/tree/main/day7) folder for chall and solution(s)
+  - NOTES
+    - Unable to solve pt 1, not sure what is wrong with my sorting method ... 
 - [ ] Day 8
 - [ ] Day 9
 - [ ] Day 10
