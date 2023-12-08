@@ -37,7 +37,12 @@ Day check boxes only get ticked if BOTH stars are gained.
   - See [Day 7](https://github.com/chababster/AdventOfCode23/tree/main/day7) folder for chall and solution(s)
   - NOTES
     - Unable to solve pt 1, not sure what is wrong with my sorting method ... 
-- [ ] Day 8
+- [ ] Day 8: Haunted Wasteland
+  - [ ] Pt 1
+  - [ ] Pt 2
+  - See [Day 8](https://github.com/chababster/AdventOfCode23/tree/main/day8) folder for chall and solution(s)
+  - NOTES
+    - Again, a very compuationally expensive solution... 
 - [ ] Day 9
 - [ ] Day 10
 - [ ] Day 11
