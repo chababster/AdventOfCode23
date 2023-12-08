@@ -25,12 +25,12 @@ Day check boxes only get ticked if BOTH stars are gained.
   - [x] Pt 1
   - [ ] Pt 2
   - See [Day 5](https://github.com/chababster/AdventOfCode23/tree/main/day5) folder for chall and solution(s)
+  - NOTES
+    - Solution for pt 2 is a brute-force method; therefore, computationally expensive and unable to run on my hardware
 - [x] Day 6: Wait For It...
   - [x] Pt 1
   - [x] Pt 2
   - See [Day 6](https://github.com/chababster/AdventOfCode23/tree/main/day6) folder for chall and solution(s)
-  - NOTES
-    - Solution for pt 2 is a brute-force method; therefore, computationally expensive and unable to run on my hardware
 - [ ] Day 7: Camel Cards
   - [ ] Pt 1
   - [ ] Pt 2
