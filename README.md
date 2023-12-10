@@ -43,7 +43,10 @@ Day check boxes only get ticked if BOTH stars are gained.
   - See [Day 8](https://github.com/chababster/AdventOfCode23/tree/main/day8) folder for chall and solution(s)
   - NOTES
     - Again, a very compuationally expensive solution... 
-- [ ] Day 9
+- [x] Day 9: Mirage Maintenance
+  - [x] Pt 1
+  - [x] Pt 2
+  - See [Day 9](https://github.com/chababster/AdventOfCode23/tree/main/day9) folder for chall and solution(s)
 - [ ] Day 10
 - [ ] Day 11
 - [ ] Day 12
