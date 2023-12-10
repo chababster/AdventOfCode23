@@ -31,10 +31,12 @@ for line in lines:
         # List for differences found 
         listofDiffs = []
 
-        # Go through all in numList and find the difference 
-        # between each list[n] and list[n-1] index. Start at 
-        # the first index of the list so we know we'll always 
-        # find a value BEFORE that current value
+        # Obj to keep track of zeros find in the curr diff list
+        zerosFound = 0 
+
+        # Go through numList and find the difference between 
+        # each values and its previous. Start at the second index 
+        # of the list so we'll always find a PREVIOUS value
         for numCnt, num in enumerate(numList[1:]):
             curr = int(numList[numCnt+1])
             prev = int(numList[numCnt])
@@ -43,18 +45,14 @@ for line in lines:
             # Append the diff found to the our diff list 
             listofDiffs.append(diff)
 
-        # Boolean that lets us know if we found a list of 
-        # all zeroes or not 
-        allZeros = True 
-        for diffs in listofDiffs:
-            if(0 != diffs):
-                allZeros = False
-                break
+            # If the diff is 0, uptick the zeroFound counter
+            if(diff == 0):
+                zerosFound = zerosFound + 1
 
-        # If we have not found a diff list of all zeros, and 
-        # append the last value in our diff list to our end 
-        # cap list 
-        if(not allZeros):
+        # If we have not found a diff list of all zeros, append 
+        # the last value in our diff list to our endcap list then 
+        # set the numList to the listOfDiffs 
+        if(len(listofDiffs) != zerosFound):
             listOfEndCaps.append(listofDiffs[-1])
             numList = listofDiffs
         # Break if we did find a diff-list of all zeros 
