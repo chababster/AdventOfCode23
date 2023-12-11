@@ -53,7 +53,12 @@ Day check boxes only get ticked if BOTH stars are gained.
   - See [Day 10](https://github.com/chababster/AdventOfCode23/tree/main/day10) folder for chall and solution(s)
   - NOTES
     - Didn't bother with todays, closely mimicked day3 task with grid searching and while loops that break on solutions conditions
-- [ ] Day 11
+- [ ] Day 11: Cosmic Expansion
+  - [ ] Pt 1
+  - [ ] Pt 2
+  - See [Day 11](https://github.com/chababster/AdventOfCode23/tree/main/day11) folder for chall and solution(s)
+  - NOTES
+    - Traveling Salesman algorithm optimized for least steps for travel (not solely relying on naive method) 
 - [ ] Day 12
 - [ ] Day 13
 - [ ] Day 14
