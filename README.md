@@ -47,7 +47,12 @@ Day check boxes only get ticked if BOTH stars are gained.
   - [x] Pt 1
   - [x] Pt 2
   - See [Day 9](https://github.com/chababster/AdventOfCode23/tree/main/day9) folder for chall and solution(s)
-- [ ] Day 10
+- [ ] Day 10: Pipe Maze
+  - [ ] Pt 1
+  - [ ] Pt 2
+  - See [Day 10](https://github.com/chababster/AdventOfCode23/tree/main/day10) folder for chall and solution(s)
+  - NOTES
+    - Didn't bother with todays, closely mimicked day3 task with grid searching and while loops that break on solutions conditions
 - [ ] Day 11
 - [ ] Day 12
 - [ ] Day 13
