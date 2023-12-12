@@ -59,7 +59,12 @@ Day check boxes only get ticked if BOTH stars are gained.
   - See [Day 11](https://github.com/chababster/AdventOfCode23/tree/main/day11) folder for chall and solution(s)
   - NOTES
     - Traveling Salesman algorithm optimized for least steps for travel (not solely relying on naive method) 
-- [ ] Day 12
+- [ ] Day 12: Hot Springs
+  - [ ] Pt 1
+  - [ ] Pt 2
+  - See [Day 12](https://github.com/chababster/AdventOfCode23/tree/main/day12) folder for chall and solution(s)
+  - NOTES
+    - Breadth first search across a map for values in a list that are >= x 
 - [ ] Day 13
 - [ ] Day 14
 - [ ] Day 15
